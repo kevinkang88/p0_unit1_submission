@@ -12,31 +12,32 @@
 # What is the output? (i.e. What should the code return?)
 # What are the steps needed to solve the problem?
 
-
-# 2. Initial Solution
-# def total(array)
-#   array.inject(0) {|memo,n| memo + n}
-# end
-
-# def sentence_maker(array)
-#     array.join(" ").capitalize! + "."
-# end
-
-
-def total(num_array)
-  num_array.inject(0) {|memo,n| memo + n}
-end
+# define method called "total"
+# it will take one argument (an array)
+# it will return the sum of the numbers in the array
 # define method called sentence_maker 
 # it will take one argument (an array)
 # it will join all elements and capitalize the first word and add a period at the end
 
+# 2. Initial Solution
+def total(array)
+  array.inject(0) {|memo,n| memo + n}
+end
+
 def sentence_maker(array)
-    "#{array.join(" ").capitalize!}."
+  array.join(" ").capitalize! + "."
 end
 
 
 # 3. Refactored Solution
 
+def total(num_array)
+  num_array.inject(0) {|memo,n| memo + n}
+end
+
+def sentence_maker(array)
+    "#{array.join(" ").capitalize!}."
+end
 
 
 # 4. Reflection 
