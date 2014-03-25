@@ -1,4 +1,4 @@
-require_relative 'my_solution'
+require_relative 'my_solution.rb'
 
 describe 'get_grade' do
   let(:arrayA) { [100,90,100,99,99]}
