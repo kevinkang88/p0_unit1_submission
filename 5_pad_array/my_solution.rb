@@ -70,3 +70,10 @@ class Array
 end
 
 # 4. Reflection 
+
+# We had a good strategy of defining separate variables such as pad_size which is not totally
+# necessary but great for readability. Also the use of times loop  was a great choice in making 
+# this problem simple. We first focused on writing solution for Array#pad first. After making sure 
+# it passed all tests we made simple tweaks to destruct the original array and created Array#pad!.
+# We had small problem running tests at first due to typo in writing variables but we figured it out
+# quickly. Most enjoyable part about this exercise was figuring out how to tackle the problem.
