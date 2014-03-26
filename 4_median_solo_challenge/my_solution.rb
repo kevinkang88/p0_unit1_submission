@@ -20,11 +20,11 @@
 
 # 2. Initial Solution
 
-# def median(ary)
-#   sorted_ary = ary.sort
-#   return sorted_ary[ary.size/2] if ary.size % 2 != 0 
-#   return (sorted_ary[ary.size/2] + sorted_ary[(ary.size/2)-1]) / 2.0
-# end
+def median(ary)
+  sorted_ary = ary.sort
+  return sorted_ary[ary.size/2] if ary.size % 2 != 0 
+  return (sorted_ary[ary.size/2] + sorted_ary[(ary.size/2)-1]) / 2.0
+end
 
 
 # 3. Refactored Solution
@@ -38,3 +38,13 @@ end
 
 
 # 4. Reflection 
+
+# I started out by sorting the array first which is a necesary step to find
+# median. Next thing I did was write separate codes for handling odd and 
+# even arrays. This was not a big mistake but I could combined both as in 
+# line 36. However I had to add line 35 for odd sized string arrays which
+# ended up giving me same number of lines anyway. 
+# For this exercise I tried to focus on getting all the tests to pass then 
+# think about most efficient way to write. Usually I would focus more on 
+# refactoring while writing my initial code however the new strategy worked
+# better in this case in solving this exercise quickly. 
