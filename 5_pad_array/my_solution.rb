@@ -1,6 +1,6 @@
 # U1.W3: Pad an Array!
 
-# I worked on this challenge [by myself, with: Jon Pabico].
+# I worked on this challenge [with: Jon Pabico].
 
 # 1. Pseudocode
 
