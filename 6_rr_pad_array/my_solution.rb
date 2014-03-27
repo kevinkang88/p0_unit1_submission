@@ -112,12 +112,13 @@ end
 
 # 5. Reflection
 
-#
-What parts of your strategy worked? What problems did you face?
-What questions did you have while coding? What resources did you find to help you answer them?
-What concepts are you having trouble with, or did you just figure something out? If so, what?
-Did you learn any new skills or tricks?
-How confident are you with each of the learning objectives?
-Which parts of the challenge did you enjoy?
-Which parts of the challenge did you find tedious?
+# When I first saw that this exercise is on refactoring our 
+# previous solution, I didn’t know if I could find a better way 
+# to improve the code. However, refactoring after reviewing others 
+# solution gave me a different perspective and ways to solve the 
+# problem. This time when I refactored I set up my Array#pad! then 
+# included it in Array#pad. I also implemented clone method to 
+# duplicate and not alter the original code instead of using the 
+# long way of constructing new blank array and concatenating elements
+# into it. 
 
